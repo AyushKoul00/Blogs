@@ -1,0 +1,52 @@
+title: Ayush Koul Blogs
+author:
+  name: 'AyushKoul00'
+  email: 'ayushkoul00@gmail.com'
+description: My Blog Website
+
+permalink: /:categories/:title/
+
+url: "https://ayushkoul00.github.io/Blogs"
+# baseurl: '/Blogs'
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-toc
+ - jekyll-remote-theme
+ - jekyll-redirect-from
+ - jekyll-paginate
+
+remote_theme: jonaharagon/jekyll-bootstrap-theme
+
+paginate: 5
+
+excerpts:
+  show: false
+  auto_truncate: true
+
+# Theme configuration
+bootstrap:
+  date_format: "%b %-d, %Y"
+
+  # If you want to link only specific pages in your header, uncomment
+  # this and add the path to the page *files* in order as they should show up
+  header_pages:
+  - about.md
+  - archive.md
+  - github.md
+
+  # generate social links in footer
+  social_links:
+    twitter: 'https://twitter.com/ayushkoul00'
+    github:  'https://github.com/AyushKoul00'
+    # facebook: 'https://example.com/@jekyllrb'
+    # instagram: 'https://example.com/@jekyllrb'
+    linkedin: 'https://www.linkedin.com/in/ayushkoul00/'
+    # google: 'https://example.com/@jekyllrb'
+    # youtube: 'https://example.com/@jekyllrb'
+    # twitch: 'https://example.com/@jekyllrb'
+    # telegram: 'https://example.com/@jekyllrb'
+    # whatsapp: 'https://example.com/@jekyllrb'
+    # discord: 'https://example.com/@jekyllrb'
+    # slack: 'https://example.com/@jekyllrb'
