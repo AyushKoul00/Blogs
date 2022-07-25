@@ -2,7 +2,7 @@
 title:  "Bezier Curves"
 author: Ayush Koul
 layout: post
-categories: curves
+categories: Computer-Graphics
 toc: true
 dependencies:
   - p5.min

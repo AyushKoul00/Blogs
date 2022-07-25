@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ray Marching"
-categories: Computer Graphics
+categories: Computer-Graphics
 toc: true
 dependencies:
   - p5.min

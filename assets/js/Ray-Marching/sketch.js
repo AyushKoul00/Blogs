@@ -6,7 +6,7 @@ let theShader;
 function preload()
 {
   // load the shader
-  theShader = loadShader('/assets/js/Ray-Marching/shader.vert', '/assets/js/Ray-Marching/shader.frag');
+  theShader = loadShader('/Blogs/assets/js/Ray-Marching/shader.vert', '/Blogs/assets/js/Ray-Marching/shader.frag');
 }
 
 function setup() 

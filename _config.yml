@@ -6,8 +6,8 @@ description: My Blog Website
 
 permalink: /:categories/:title/
 
-url: "https://ayushkoul00.github.io/Blogs"
-# baseurl: '/Blogs'
+url: "https://ayushkoul00.github.io"
+baseurl: '/Blogs'
 
 plugins:
  - jekyll-feed
